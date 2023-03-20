@@ -25,19 +25,19 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "6046722433:AAFvCYQrRDLQgmEqVBbPzzfpXTZtI3dxpCQ"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "26089232"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "747d25a5b2598bdff34ef08851dcf9bf"
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "1834908260"
+      "value": "5724424855"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -74,7 +74,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
