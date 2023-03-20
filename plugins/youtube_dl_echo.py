@@ -275,7 +275,7 @@ async def echo(bot, update):
             Config.CHUNK_SIZE,
             None,  # bot,
             Translation.DOWNLOAD_START,
-            chat_id = update.message.chat_id,
+            update.message.chat_id,
             update.chat.id
         )
         if os.path.exists(thumb_image_path):
