@@ -275,8 +275,7 @@ async def echo(bot, update):
             Config.CHUNK_SIZE,
             None,  # bot,
             Translation.DOWNLOAD_START,
-            update.message.chat_id,
-            update.chat.id
+            reply_to_message_id=update.message.message_id
         )
         if os.path.exists(thumb_image_path):
             im = Image.open(thumb_image_path).convert("RGB")
